@@ -14,10 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home',[
-        'title' => 'Goodeva Technology AI & iOt Enterprise',
-        // 'active' => 'home',
+    return view('pages.home',[
+        'title' => 'Goodeva Technology AI & iOt Enterprise'
     ]);
 });
-
-// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
