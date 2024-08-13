@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\PostModel;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,7 +15,33 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages.home',[
+    return view('index', [
+        'title' => 'Goodeva Technology AI & iOt Enterprise'
+    ]);
+});
+
+
+Route::get('/salestrace', function () {
+    return view('pages.salestrace', [
+        'title' => 'Goodeva Technology AI & iOt Enterprise'
+    ]);
+});
+
+Route::get('/smartsafety', function () {
+    return view('pages.smartsafety',[
+        'title' => 'Goodeva Technology AI & iOt Enterprise'
+    ]);
+});
+
+Route::get('/goodeva-enterprise', function () {
+    return view('pages.goodevaEnterprise',[
+        'title' => 'Goodeva Technology AI & iOt Enterprise',
+        'data_post' => PostModel::getAllData(),
+    ]);
+});
+
+Route::get('/detail-product', function () {
+    return view('pages.detailProduct',[
         'title' => 'Goodeva Technology AI & iOt Enterprise'
     ]);
 });

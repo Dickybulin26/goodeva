@@ -1,0 +1,948 @@
+@extends('layouts.main')
+
+@section('container')
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center">
+            <div class="logo me-auto">
+                <a href="#"><img src="https://goodeva.co.id/public/img/assets/Goodeva-technology-logo.png" alt="logo-nav"
+                        class="img-fluid" /></a>
+            </div>
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a class="nav-link scrollto fw-bold" href="#">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#"><span>Product</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item smart-safety dropdown-item-with-image">
+                                <a href="#">
+                                    <span class="">Smart Safety</span>
+                                    <span class="sub-link">Fatigue Solution</span>
+                                </a>
+                            </li>
+                            <li class="dropdown-item sales-automation dropdown-item-with-image">
+                                <a href="#">
+                                    <span class="">Sales Automation</span>
+                                    <span class="sub-link">CRM Solutions</span>
+                                </a>
+                            </li>
+                            <li class="dropdown-item goodeva-enterprise dropdown-item-with-image">
+                                <a href="#">
+                                    <span class="">Goodeva Enterprise</span>
+                                    <span class="sub-link">Solusi Technology</span>
+                                </a>
+                            </li>
+                            <li class="dropdown-item digital-growth dropdown-item-with-image">
+                                <a href="#">
+                                    <span>Digital Growth</span>
+                                    <span class="sub-link">Marketing Solutions</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link scrollto" href="#">Solutions</a></li>
+                    <li><a class="nav-link scrollto" href="#">Academy</a></li>
+                    <li class="dropdown dropdown-company">
+                        <a href="#"><span>Company</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">
+                                <a href="#">
+                                    <span>About</span>
+                                    <span class="sub-link">Learn more about us</span>
+                                </a>
+                            </li>
+                            <hr class="dropdown-divider" />
+                            <li class="dropdown-item">
+                                <a href="#">
+                                    <span>Careers</span>
+                                    <span class="sub-link">Explore our openings</span>
+                                </a>
+                            </li>
+                            <hr class="dropdown-divider" />
+                            <li class="dropdown-item">
+                                <a href="#">
+                                    <span>Contact</span>
+                                    <span class="sub-link">Keep in touch with us</span>
+                                </a>
+                            </li>
+                            <hr class="dropdown-divider" />
+                            <li class="dropdown-item">
+                                <a href="#">
+                                    <span>Goodeva Media</span>
+                                    <span class="sub-link">Get our latest update</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav-link scrollto bahasa" href="#">English <i class="bi bi-globe2"></i></a>
+                    </li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="salestrace-hero" class="salestrace-hero mt-lg-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="bg-hero img-fluid" src="../assets/img/salestrace/salestrace-hero.png" alt="" />
+                </div>
+                <div class="col-md-6 pt-4 pt-lg-0 text-container">
+                    <h3>Goodeva</h3>
+                    <h2>Salestrace</h2>
+
+                    <a href="#" class="btn-get-started scrollto">
+                        <span>Get Started </span><i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Hero Section mobile ======= -->
+    <section id="salestrace-hero-mobile" class="salestrace-hero-mobile mt-lg-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 bg-hero ">
+                    <img class="img-fluid" src="../assets/img/salestrace/salestrace-hero-mobile.png" alt="" />
+                </div>
+                <div class="col-md-6 pt-4 pt-lg-0 text-container">
+                    <h3>Goodeva</h3>
+                    <h2>Salestrace</h2>
+
+                    <a href="#" class="btn-get-started scrollto">
+                        <span>Get Started </span><i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portofolio client -->
+    <section id="salestrace-valued-client" class="salestrace-valued-client">
+        <div class="container">
+            <div class="title-valued-client text-center fw-bold pt-5">
+                <h2>Portofolio & Valued Client</h2>
+                <p>Join with 24 Company Local Indonesia & International</p>
+            </div>
+
+            <div class="row justify-content-center align-items-center pb-5 pt-3">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex align-items-center mb-3">
+                    <div class="logo-valued-client">
+                        <img class="img-item img-fluid" src="../assets/img/salestrace/valued-client1.png"
+                            alt="logo media" />
+                    </div>
+                </div>
+
+                <div class="col-lg-1 col-md-3 col-sm-4 col-6 d-flex align-items-center mb-3">
+                    <div class="logo-valued-client">
+                        <img class="img-item" src="../assets/img/salestrace/valued-client2.png" alt="logo media"
+                            id="odeva" />
+                    </div>
+                </div>
+
+                <div class="col-lg-1 col-md-3 col-sm-4 col-6 d-flex align-items-center mb-3 pl-2">
+                    <div class="logo-valued-client">
+                        <img class="img-item img-fluid" src="../assets/img/salestrace/valued-client3.png"
+                            alt="logo media" />
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex align-items-center mb-3">
+                    <div class="logo-valued-client">
+                        <img class="img-item img-fluid" src="../assets/img/salestrace/valued-client4.png"
+                            alt="logo media" />
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex align-items-center mb-3">
+                    <div class="logo-valued-client">
+                        <img class="img-item img-fluid" src="../assets/img/salestrace/valued-client5.png"
+                            alt="logo media" />
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex align-items-center mb-3">
+                    <div class="logo-valued-client">
+                        <img class="img-item img-fluid" src="../assets/img/salestrace/valued-client6.png"
+                            alt="logo media" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- benifit card -->
+    <section class="card-benifit" id="card-benifit">
+        <div class="container">
+            <div class="title-service text-center fw-bold pt-5">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h2>
+                            Manage marketing & sales <br />
+                            activity enabling them to <br />
+                            sell more
+                        </h2>
+                    </div>
+
+                    <div class="col-md-5">
+                        <div class="card explenation-card">
+                            <p>
+                                We serve advanced technology for integrating all sales data
+                                from devices from customer data to sales data then processed
+                                with AI
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-deck">
+                <div class="card first-card">
+                    <img src="/assets/img/salestrace/card-benefit1.png" class="card-img-top main-card" alt="api" />
+                    <div class="card-body"></div>
+                </div>
+                <div class="card">
+                    <img src="/assets/img/salestrace/card-benefit2.png" class="card-img-top" alt="monitoring" />
+                    <div class="card-body"></div>
+                </div>
+                <div class="card">
+                    <img src="/assets/img/salestrace/card-benefit3.png" class="card-img-top" alt="notification" />
+                    <div class="card-body"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- card benifit mobile -->
+    <!-- ======= Card Benerfit Mobile ======= -->
+    <section class="card-benifit-mobile" id="card-benifit-mobile">
+        <div class="container">
+            <div class="title-service text-center fw-bold pt-2">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h2>
+                            Manage marketing & sales
+                            activity enabling them to
+                            sell more
+                        </h2>
+                    </div>
+                </div>
+                <!-- test -->
+                <div class="card mobile-redmi w-100">
+                    <img src="/assets/img/salestrace/card-benefit1.png" class="card-img-top mobile" alt="card-benefit">
+                    <div class="card-body"
+                        style="background-image: linear-gradient(to bottom right, #4a4a4a, #000000); height: 6rem; border-radius: 1rem 1rem 0 0;">
+                        <p class="card-text">We serve advanced technology for integrating all sales data
+                            from devices from customer data to sales data then processed
+                            with AI</p>
+                    </div>
+                </div>
+    </section>
+
+    <!-- section salestrace feature -->
+    <section id="salestrace-feature1" class="salestrace-feature1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-product">
+                    <h3>
+                        Manage marketing & sales activity enabling them to sell more
+                    </h3>
+                    <p class="mb-4">
+                        We serve advanced technology for integrating all sales data from
+                        devices from customer data to sales data then processed with AI
+                        and displayed on an integrated platform to help monitor sales
+                        sales activities.
+                    </p>
+                </div>
+                <div class="col-md-6 pt-4 pt-lg-0 text-container">
+                    <img class="product-img img-fluid" src="/assets/img/salestrace/manage-marketing.png"
+                        alt="SalesTrace" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section salestrace feature1 mobile -->
+    <section id="salestrace-feature1-mobile" class="salestrace-feature1-mobile">
+        <img class="product-img img-fluid" src="/assets/img/salestrace/manage-marketing.png" alt="SalesTrace" />
+        <div class="container">
+            <div class="text-product">
+                <h3>
+                    Manage marketing & sales activity enabling them to sell more
+                </h3>
+                <p class="mb-4">
+                    We serve advanced technology for integrating all sales data from
+                    devices from customer data to sales data then processed with AI
+                    and displayed on an integrated platform to help monitor sales
+                    sales activities.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- section salestrace feature -->
+    <section id="salestrace-feature2" class="salestrace-feature2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="product-img img-fluid" src="/assets/img/salestrace/monitor-sales.png" alt="" />
+                </div>
+                <div class="col-md-6 pt-4 pt-lg-0 text-container">
+                    <h3>Monitor sales daily journey & target real-time everywhere</h3>
+                    <p class="mb-4">
+                        Our system help business to possibly analyze sales worker with
+                        BigData, we can analyze the behavior and push them to reach
+                        their selling target
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section salestrace feature2 mobile -->
+    <section id="salestrace-feature2-mobile" class="salestrace-feature2-mobile">
+        <img class="product-img img-fluid" src="/assets/img/salestrace/monitor-sales.png" alt="SalesTrace" />
+        <div class="container">
+            <div class="text-product">
+                <h3>Monitor sales daily journey & target real-time everywhere</h3>
+                <p class="mb-4">
+                    Our system help business to possibly analyze sales worker with
+                    BigData, we can analyze the behavior and push them to reach
+                    their selling target
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="salestrace-feature3" class="salestrace-feature3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 text-product">
+                    <h3>360 Degree customer & sales view</h3>
+                    <p class="mb-4">
+                        Proven technology for enabling SME reach their selling target by
+                        empowering AI and intelligence dashboard analytics
+                    </p>
+                </div>
+                <div class="col-md-6 pt-4 pt-lg-0 text-container">
+                    <img class="product-img img-fluid" src="/assets/img/salestrace/sales-view.png" alt="SalesTrace" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section salestrace feature3 mobile -->
+    <section id="salestrace-feature1-mobile" class="salestrace-feature1-mobile">
+        <img class="product-img img-fluid" src="/assets/img/salestrace/sales-view.png" alt="SalesTrace" />
+        <div class="container">
+            <div class="text-product">
+                <h3>360 Degree customer & sales view</h3>
+                <p class="mb-4">
+                    Proven technology for enabling SME reach their selling target by
+                    empowering AI and intelligence dashboard analytics
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="salestrace-feature4" class="salestrace-feature4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="product-img img-fluid" src="/assets/img/salestrace/all-in-one.png" alt="" />
+                </div>
+                <div class="col-md-6 pt-4 pt-lg-0 text-container">
+                    <h3>All In One Solution Bussiness Inteligence</h3>
+                    <p class="mb-4">
+                        Our system help business to possibly analyze sales worker with
+                        BigData, we can analyze the behavior and push them to reach
+                        their selling target
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section salestrace feature4 mobile -->
+    <section id="salestrace-feature2-mobile" class="salestrace-feature2-mobile">
+        <img class="product-img img-fluid" src="/assets/img/salestrace/all-in-one.png" alt="SalesTrace" />
+        <div class="container">
+            <div class="text-product">
+                <h3>All In One Solution Bussiness Inteligence</h3>
+                <p class="mb-4">
+                    Our system help business to possibly analyze sales worker with
+                    BigData, we can analyze the behavior and push them to reach
+                    their selling target
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="salestrace-feature3" class="salestrace-feature3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 text-product">
+                    <h3>Integrate with your third party apps</h3>
+                    <p class="mb-4">
+                        We help you stay connected with your existing ERP & other
+                        third-party apps to integrate data between new and existing
+                        systems.
+                    </p>
+                </div>
+                <div class="col-md-6 pt-4 pt-lg-0 text-container">
+                    <img class="product-img img-fluid" src="/assets/img/salestrace/third-party-apps.png"
+                        alt="SalesTrace" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section salestrace feature5 mobile -->
+    <section id="salestrace-feature1-mobile" class="salestrace-feature1-mobile">
+        <img class="product-img img-fluid" src="/assets/img/salestrace/third-party-apps.png" alt="SalesTrace" />
+        <div class="container">
+            <div class="text-product">
+                <h3>Integrate with your third party apps</h3>
+                <p class="mb-4">
+                    We help you stay connected with your existing ERP & other
+                    third-party apps to integrate data between new and existing
+                    systems.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= salestrace-carousel section ======= -->
+    <section id="salestrace-benifit" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="bg-salestrace-benifit">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="col-lg-6 col-sm-10">
+                            <img src="../assets/img/salestrace/carousel-benifit1.png" class="d-block" alt="" />
+
+                        </div>
+                        <div class="col-lg-10 col-sm-10 text-salestrace-benifit">
+                            <div class="corusel-caption container text-start text-md-right justify-content-right w-50">
+                                <h1>Targeting Sales</h1>
+                                <h2>
+                                    Setup a target for a group of sales, and you can <br />
+                                    track selling achievement in realtime in the apps.
+                                </h2>
+
+                                <div class="benifit-nav">
+                                    <a href="#" class="corousel-nav scrollto"
+                                        data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                        <span><i class="bi bi-arrow-left"></i></span>
+                                    </a>
+
+                                    <p><u>01</u>/03</p>
+
+                                    <a href="#" class="corousel-nav scrollto"
+                                        data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                        <span><i class="bi bi-arrow-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-lg-6 col-sm-10">
+                            <img src="../assets/img/salestrace/carousel-benifit2.png" class="d-block" alt="" />
+
+                        </div>
+                        <div class="corusel-caption container text-start text-md-right justify-content-right w-50">
+                            <span class="company-name">Goodeva Technology</span>
+                            <h1>Targeting Sales</h1>
+                            <h2>
+                                Setup a target for a group of sales, and you can <br />
+                                track selling achievement in realtime in the apps.
+                            </h2>
+                            <div class="benifit-nav">
+                                <a href="#" class="corousel-nav scrollto" data-bs-target="#carouselExampleCaptions"
+                                    data-bs-slide="prev">
+                                    <span><i class="bi bi-arrow-left"></i></span>
+                                </a>
+
+                                <p><u>02</u>/03</p>
+
+                                <a href="#" class="corousel-nav scrollto" data-bs-target="#carouselExampleCaptions"
+                                    data-bs-slide="next">
+                                    <span><i class="bi bi-arrow-right"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-lg-6 col-sm-10">
+                            <img src="../assets/img/salestrace/card-benefit3.png" class="d-block" alt="" />
+
+                        </div>
+                        <div class="corusel-caption container text-start text-md-right justify-content-right w-50">
+                            <span class="company-name">Goodeva Technology</span>
+                            <h1>Targeting Sales</h1>
+                            <h2>
+                                Setup a target for a group of sales, and you can <br />
+                                track selling achievement in realtime in the apps.
+                            </h2>
+
+                            <div class="benifit-nav">
+                                <a href="#" class="corousel-nav scrollto" data-bs-target="#carouselExampleCaptions"
+                                    data-bs-slide="prev">
+                                    <span><i class="bi bi-arrow-left"></i></span>
+                                </a>
+
+                                <p><u>03</u>/03</p>
+
+                                <a href="#" class="corousel-nav scrollto" data-bs-target="#carouselExampleCaptions"
+                                    data-bs-slide="next">
+                                    <span><i class="bi bi-arrow-right"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= salestrace-carousel mobile ======= -->
+    <section id="salestrace-benifit-mobile" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="bg-salestrace-benifit">
+            <div id="salestraceCarouselMobile" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-img">
+                            <img src="../assets/img/salestrace/carousel-benifit1.png" class="d-block" alt="" />
+                        </div>
+                        <div class="text-salestrace-benifit">
+                            <div class="corusel-caption container">
+                                <h1>Targeting Sales</h1>
+                                <h2>
+                                    Setup a target for a group of sales, and you can
+                                    track selling achievement in realtime in the apps.
+                                </h2>
+
+                                <div class="benifit-nav">
+                                    <a href="#" class="corousel-nav scrollto"
+                                        data-bs-target="#salestraceCarouselMobile" data-bs-slide="prev">
+                                        <span><i class="bi bi-arrow-left"></i></span>
+                                    </a>
+
+                                    <p><u>01</u>/03</p>
+
+                                    <a href="#" class="corousel-nav scrollto"
+                                        data-bs-target="#salestraceCarouselMobile" data-bs-slide="next">
+                                        <span><i class="bi bi-arrow-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-lg-6 col-sm-10">
+                            <img src="../assets/img/salestrace/carousel-benifit2.png" class="d-block" alt="" />
+
+                        </div>
+                        <div class="corusel-caption container">
+                            <h1>Targeting Sales</h1>
+                            <h2>
+                                Setup a target for a group of sales, and you can
+                                track selling achievement in realtime in the apps.
+                            </h2>
+                            <div class="benifit-nav">
+                                <a href="#" class="corousel-nav scrollto"
+                                    data-bs-target="#salestraceCarouselMobile" data-bs-slide="prev">
+                                    <span><i class="bi bi-arrow-left"></i></span>
+                                </a>
+
+                                <p><u>02</u>/03</p>
+
+                                <a href="#" class="corousel-nav scrollto"
+                                    data-bs-target="#salestraceCarouselMobile" data-bs-slide="next">
+                                    <span><i class="bi bi-arrow-right"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-lg-6 col-sm-10">
+                            <img src="../assets/img/salestrace/card-benefit3.png" class="d-block" alt="" />
+
+                        </div>
+                        <div class="corusel-caption container">
+                            <h1>Targeting Sales</h1>
+                            <h2>
+                                Setup a target for a group of sales, and you can
+                                track selling achievement in realtime in the apps.
+                            </h2>
+
+                            <div class="benifit-nav">
+                                <a href="#" class="corousel-nav scrollto"
+                                    data-bs-target="#salestraceCarouselMobile" data-bs-slide="prev">
+                                    <span><i class="bi bi-arrow-left"></i></span>
+                                </a>
+
+                                <p><u>03</u>/03</p>
+
+                                <a href="#" class="corousel-nav scrollto"
+                                    data-bs-target="#salestraceCarouselMobile" data-bs-slide="next">
+                                    <span><i class="bi bi-arrow-right"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- why | increas section -->
+    <section id="increase-feature" class="increase-feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-product">
+                    <h3>
+                        Why The Salestrace Can Help
+                        sales to work more easy & efficient?
+                    </h3>
+                    <p class="mb-4">Start Increasing Your Sales With simple apps.</p>
+                    <div class="increas-list">
+                        <ul>
+                            <li>
+                                <img src="/assets/img/salestrace/check.png" alt="check" />Real Time Performance
+                            </li>
+                            <li>
+                                <img src="/assets/img/salestrace/check.png" alt="check" />Customer Detail
+                            </li>
+                            <li>
+                                <img src="/assets/img/salestrace/check.png" alt="check" />Sales Commission
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 pt-4 pt-lg-0 text-container">
+                    <img class="product-img img-fluid" src="/assets/img/salestrace/increas-section.png"
+                        alt="SalesTrace" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="increase-feature-mobile" class="increase-feature-mobile">
+        <div class="container">
+            <div class="row">
+                <img class="product-img img-fluid" src="/assets/img/salestrace/increas-section.png" alt="SalesTrace" />
+                <div class="col-md-6 text-product">
+                    <h3>
+                        Why The Salestrace Can Help
+                        sales to work more easy & efficient?
+                    </h3>
+                    <p>Start Increasing Your Sales With simple apps.</p>
+                    <div class="increas-list">
+                        <ul>
+                            <li>
+                                <img src="/assets/img/salestrace/check.png" alt="check" />Real Time Performance
+                            </li>
+                            <li>
+                                <img src="/assets/img/salestrace/check.png" alt="check" />Customer Detail
+                            </li>
+                            <li>
+                                <img src="/assets/img/salestrace/check.png" alt="check" />Sales Commission
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ section -->
+    <section id="faq-section" class="faq-section">
+        <img class="bg-text-product" src="/assets/img/salestrace/Ellipse-faq.png" alt="" />
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-product">
+                    <h3>
+                        Use smart sales for your
+                        sales automation and help
+                        your sales
+                    </h3>
+                    <p class="mb-4">
+                        Salestrace helps SME business increase their
+                        sales performance by adopting AI to
+                        drive sales growth and cost savings.
+                    </p>
+                </div>
+                <div class="col-md-6 pt-4 pb-4 pt-lg-0 text-container">
+                    <div class="faq-lists">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        What is the Salestrace application?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        Salestrace helps SME business increase their sales
+                                        performance by adopting AI to drive sales growth and
+                                        cost savings.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        How do I start using the Salestrace application?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        Salestrace helps SME business increase their sales
+                                        performance by adopting AI to drive sales growth and
+                                        cost savings.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        What are the main features available in the Salestrace
+                                        application?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        Salestrace helps SME business increase their sales
+                                        performance by adopting AI to drive sales growth and
+                                        cost savings.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                        aria-controls="flush-collapseFour">
+                                        Is the Salestrace application available for free?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        Salestrace helps SME business increase their sales
+                                        performance by adopting AI to drive sales growth and
+                                        cost savings.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                        aria-controls="flush-collapseFive">
+                                        Is my business data safe on the Salestrace application?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        Salestrace helps SME business increase their sales
+                                        performance by adopting AI to drive sales growth and
+                                        cost savings.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                        aria-controls="flush-collapseSix">
+                                        How can I get help if I have problems with the
+                                        Salestrace application?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSix" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        Salestrace helps SME business increase their sales
+                                        performance by adopting AI to drive sales growth and
+                                        cost savings.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- card services section -->
+    <section class="card-service" id="card-service">
+        <div class="title-service text-center fw-bold pt-5">
+            <h2>
+                Make Sales Orders, Quotations, & <br />
+                Inovice Using Hp With Salestrace Apps!
+            </h2>
+            <p>
+                Enabling your sales to work more efficient to save cost and boost
+                your profit. <br />
+                Contact us now for more information.
+            </p>
+        </div>
+
+        <div class="card-deck">
+            <div class="card">
+                <div class="card-body">
+                    <img class="card-logo api" src="/assets/img/salestrace/api-service.png" alt="" />
+                    <h5 class="card-title api">
+                        Open API & <span class="fw-bold">Integrated</span> Dashboard
+                    </h5>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <img class="card-logo monitoring" src="/assets/img/salestrace/Capa_1.png" alt="" />
+                    <h5 class="card-title monitoring">
+                        Real Time <span class="fw-bold">Sales</span> Monitoring
+                    </h5>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <img class="card-logo notification" src="/assets/img/salestrace/Capa_1-1.png" alt="" />
+                    <h5 class="card-title notification">
+                        Sales <span class="fw-bold">Reminders</span> & Notifications
+                    </h5>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <img class="card-logo custom" src="/assets/img/salestrace/Capa_1-2.png" alt="" />
+                    <h5 class="card-title custom">
+                        <span class="fw-bold">Custom Apps</span> & Dashboard
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section liputan -->
+    <section id="liputan" class="liputan">
+        <div class="container">
+            <div class="title-liputan text-center fw-bold pt-3">
+                <h2>Goodeva Has Been Covered by the Media</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-4 d-flex align-items-center mb-3">
+                    <div class="logo-liputan">
+                        <img class="img-fluid"
+                            src="https://goodeva.co.id/public/img/assets/home/diliput/Tempo-goodeva.png"
+                            alt="logo media" />
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-4 d-flex align-items-center mb-3 d-md-block">
+                    <div class="logo-liputan">
+                        <img class="img-fluid"
+                            src="https://goodeva.co.id/public/img/assets/home/diliput/Liputan-6-goodeva.png"
+                            alt="logo media" />
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-4 d-flex align-items-center mb-3">
+                    <div class="logo-liputan">
+                        <img class="img-fluid"
+                            src="https://goodeva.co.id/public/img/assets/home/diliput/TirtoId-goodeva.png"
+                            alt="logo media" />
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-4 d-flex align-items-center mb-3 d-md-block">
+                    <div class="logo-liputan">
+                        <img class="img-fluid"
+                            src="https://goodeva.co.id/public/img/assets/home/diliput/Tribunnews-com-goodeva.png"
+                            alt="logo media" />
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-4 d-flex align-items-center mb-3">
+                    <div class="logo-liputan">
+                        <img class="img-fluid"
+                            src="https://goodeva.co.id/public/img/assets/home/diliput/Bisnis-com-goodeva.png"
+                            alt="logo media" />
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-4 d-flex align-items-center mb-3 d-md-block">
+                    <div class="logo-liputan">
+                        <img class="img-fluid"
+                            src="https://goodeva.co.id/public/img/assets/home/diliput/Berita-satu-goodeva.png"
+                            alt="logo media" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- improve -->
+    <section id="improve" class="improve">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 text-product">
+                    <h3>Improve Sales Performance, <br />Boost Profit.</h3>
+                    <button class="btn-improve scrollto">
+                        Trial Now <i class="bi bi-arrow-right"></i>
+                    </button>
+                    <button class="btn-improve scrollto">
+                        WhatsApp Us <i class="bi bi-whatsapp"></i>
+                    </button>
+                </div>
+                <div class="col-md-5 pt-4 pt-lg-0 text-container">
+                    <img class="product-img img-fluid" src="/assets/img/salestrace/ninja-improve.png" alt="SalesTrace" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="improve-mobile" class="improve-mobile">
+        <div class="container">
+            <div class="text-product">
+                <h3>
+                    Improve sales performance, boost profit.
+                </h3>
+                <div class="improve-bottom">
+                    <button class="btn-improve-mobile scrollto">
+                        Trial Now <i class="bi bi-arrow-right"></i>
+                    </button>
+                    <button class="btn-improve-mobile scrollto">
+                        WhatsApp Us <i class="bi bi-whatsapp"></i>
+                    </button>
+                    <img class="product-img" src="../assets/img/ninja-mobile.png" alt="ninja" />
+                </div>
+            </div>
+        </div>
+    </section>
+@endsection
