@@ -1,0 +1,770 @@
+/* CSS Mobile */
+
+@media (max-width:767px) { 
+
+    /* -------------------------Halaman Contact-------------------------------- */
+
+    /* Header Contact */
+
+    .header-contact img {
+
+        margin-bottom: 1rem;
+
+    }
+
+    .desktop-show{
+        display: none !important;
+    }
+
+
+
+    .section-heading .heading-menuname p {
+
+        font-size: 14.5px;
+
+    }
+
+
+
+    .section-heading .heading-title {
+
+        line-height: 41px;
+
+        font-size: 36px;
+
+        letter-spacing: 0.10px;
+
+    }
+
+
+
+    .section-heading .heading-text p {
+
+        font-size: 14px;
+
+        line-height: 24px;
+
+        margin-bottom: 1rem;
+
+    }
+
+    /* Akhir Header Contact */
+
+    .col-2 img {
+
+        margin-left: 0% !important;
+
+        height: 250px;
+
+        object-fit: cover;
+
+        object-position: top;
+
+    }
+
+
+
+    .section-comments {
+
+        padding-top: 0;
+
+        padding-bottom: 1px;
+
+    }
+
+
+
+    .col-2 .col-md-5 {
+
+        padding-left: 1rem !important;
+
+    }
+
+
+
+    .container-mobile {
+
+        padding-right: 15px;
+
+        padding-left: 15px;
+
+        margin-right: auto;
+
+        margin-left: auto;
+
+    }
+
+
+
+    .text--findus {
+
+        margin-top: 3rem;
+
+    }
+
+
+
+    .col-2 .of-3 {
+
+        margin-top: 1.5rem;
+
+    }
+
+
+
+    .block--office {
+
+        padding-top: 30px !important;
+
+        padding-bottom: 5px !important;
+
+    }
+
+
+
+    .btn--send {
+
+        text-transform: none !important;
+
+    }
+
+    /* -------------------------Akhir Halaman Contact-------------------------------- */
+
+    /* -------------------------Awal Footer-------------------------------- */
+
+    .e-footer__nav-list > li:nth-child(1){
+        width: auto;
+    }
+
+    .e-footer__nav-list > li{
+        margin-right:5px;
+        margin-left:5px;
+    }
+
+    .footer .footer-social{
+        padding : 0px !important;
+    }
+
+    .text-left
+    {
+        text-align: left !important;
+    }
+    /* -------------------------Akhir Footer-------------------------------- */
+
+    /* -------------------------Awal Navigasi-------------------------------- */
+
+    /* Icon 1 */
+
+    .l-burger{
+        
+            position: absolute;
+            top: 4px;
+            right: 20px;
+            cursor: pointer;
+        
+    }
+    
+    .l-burger span {
+        display: block;
+        /* position: absolute;
+        height: 9px;
+        width: 100%; */
+        /* background: #d3531a; */
+        border-radius: 9px;
+        opacity: 1;
+        /* left: 0; */
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+
+        width: 30px;
+        height: 2px;
+        border-radius: 3px;
+        background-color: #000000;
+        margin: 7px 0;
+    }
+
+    .bg-white{
+        background: #ffffff !important;
+        border:none !important;
+    }
+
+    .l-burger.open span
+    {
+        display: none;
+    }
+
+    .pad-mobile-y-3{
+        padding-top:1rem;
+        padding-bottom:1rem;
+    }
+
+    .header .navbar.navbar-default .right-nav-block { float: none !important; margin-top: 0px !important; }
+    
+    .l-burger.open span:first-child {
+        display: block;
+        transform: rotate(45deg) translate(9px,7px);
+        -webkit-transform: rotate(45deg) translate(9px,7px);
+        -moz-transform: rotate(45deg) translate(9px,7px);
+    }
+
+    .l-burger.open span:last-child {
+        display: block;
+        transform: rotate(-45deg) translate(-1px,2px);
+        -webkit-transform: rotate(-45deg) translate(-1px,2px);
+        -moz-transform: rotate(-45deg) translate(-1px,2px);
+    }
+
+    .wrap-inside-nav {
+        position: static !important;
+        margin-top: 6px;
+        margin-bottom: 20px;
+        box-shadow: none !important;
+
+    }
+
+    
+    .wrap-inside-nav-mobile .inside-nav li a  > div span:nth-child(1){
+
+        color: #1C1D1E !important;
+    
+        font-size: 14px;
+    
+        font-weight: 500;
+    
+        line-height: 1;
+    
+    }
+
+    .wrap-inside-nav-mobile .inside-nav li a  > div span:nth-child(2){
+
+        color: #1C1D1E !important;
+      
+        opacity: 0.5;
+      
+        font-size: 12.5px;
+      
+        font-weight: normal;
+      
+        line-height: 20px;
+
+        display: block;
+      
+      }
+
+      .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+          background: transparent !important;
+      }
+
+      .wrap-inside-nav-mobile .inside-nav li { line-height: 45px; min-height: 45px; }
+
+        .wrap-inside-nav-mobile .e-nav--list_child li:nth-child(1) {border-bottom: 1px solid #E5E5E5;}
+
+        .wrap-inside-nav-mobile .e-nav--list_child li:nth-child(2) {border-bottom: 1px solid #E5E5E5;}
+
+        .wrap-inside-nav-mobile .e-nav--list_child li:nth-child(3) {border-bottom: none !important;}
+
+
+
+        .wrap-inside-nav-mobile .e-nav--list_child_company li:nth-child(1) {border-bottom: 1px solid #E5E5E5;}
+
+        .wrap-inside-nav-mobile .e-nav--list_child_company li:nth-child(2) {border-bottom: 1px solid #E5E5E5;}
+
+        .wrap-inside-nav-mobile .e-nav--list_child_company li:nth-child(3) {border-bottom: 1px solid #E5E5E5;}
+
+        .wrap-inside-nav-mobile .e-nav--list_child_company li:nth-child(4) {border-bottom: none !important;}
+
+    
+  
+
+    /* -------------------------Akhir Navigasi-------------------------------- */
+
+
+    /* --------------------------------HOME------------------------------------- */
+
+    .section-watch-video .control-button{
+        top: 80px;
+    }
+
+    .play-btn{
+        width: 30%;
+    }
+
+    .solusi .header p, .section-watch-video .header p {
+
+        font-weight: 300;
+    
+        color: #ffffff;
+    
+        padding-right: 5%;
+    
+        padding-left: 5%;
+    
+        font-size: 16px;
+    
+        line-height: 24px;
+    
+        letter-spacing: 0.08px;
+    
+    }
+
+    .solusi .header p{
+        color: #636F73 !important;
+    }
+
+    .box-fitur{
+        background: #ffffff;
+        box-shadow: 0px 3px 25px #00000017;
+        border-radius: 13px;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        
+    }
+
+    .fitur p{
+        margin-top: 0px !important;
+        padding-right: 0px !important;
+        margin-bottom:0.5rem !important;
+        font-size: 16px;
+        line-height : 21px !important;
+    }
+
+    .btn-detail-fitur{
+        background: #26A7B5;
+        border-radius: 7px;
+        /* position: absolute; */
+        /* margin-right:1.7rem!important;
+        margin-left: 1.3rem!important; */
+        /* margin-bottom: -42px !important; */
+        width: 12rem;
+        height: 44px;
+        display:block !important;
+    }
+
+    .btn-detail-fitur a{
+        color:#ffffff;
+    }
+
+  
+
+    .fitur a{
+        margin-top:0px !important;
+    }
+
+    .my-fitur{
+        margin-top:6rem !important;
+        margin-bottom:6rem !important;
+    }
+
+    .fitur img {
+        width: 24% !important;
+        height: 60px !important;
+        margin-bottom: 5%;
+        background: #fbfbfb;
+    }
+
+    .h-box-f{
+        width: auto !important;
+        height: 425px;
+    }
+
+    .info-card .card-safety img.char--info-img {
+
+        position: absolute;
+    
+        bottom: 0;
+    
+        right: 17%;
+    
+        width: 65%;
+    
+    }
+
+    .info-card .card-safety p{
+        font-size:20px !important;
+    }
+
+    .info-card .card-safety p.healthy-p{
+        font-size:16px !important;
+    }
+
+    .info-card .card-safety span,.info-card .card-safety .text-judul{
+        color:#ffffff;
+    }
+
+    .info-card .card-safety span{
+        font-size:12px;
+        font-weight: 200;
+    }
+
+    
+
+    .testimoni .box-box{
+        width: auto !important;
+        margin:0 !important;
+        
+        color:#636F73;
+        
+        border-radius: 16px !important;
+        min-height: 220px;
+        height: auto !important;
+        /* transition: 0.6s !important; */
+    }
+
+    
+
+    .testimoni h4{
+        padding:0 0 7% !important;
+    }
+
+    .mobile-show .slick-slide .testimoni .box-box,
+    .mobile-show .slick-slide[aria-hidden="true"]:not(.slick-cloned) ~ .slick-cloned[aria-hidden="true"] .testimoni .box-box{
+        
+        /* -webkit-transition: 1s background-color !important;
+        -moz-transition: 1s background-color !important;
+        -o-transition: 1s background-color !important;
+        transition: 1s background-color !important; */
+        transition: all 2s !important;
+        background: #ffffff !important;
+        /* height: 250px !important; */
+        opacity: 0.5;
+        
+    }
+
+    .mobile-show .slick-center .testimoni .box-box,
+    .mobile-show .slick-slide[aria-hidden="true"]:not([tabindex="-1"]) + .slick-cloned[aria-hidden="true"] .testimoni .box-box{
+        background: transparent linear-gradient(180deg, #4357A5 0%, #143477 100%) 0% 0% no-repeat padding-box !important;
+        /* background: #000000 !important; */
+        opacity: 1;
+        /* background: transparent linear-gradient(180deg, #4357A5 0%, #143477 100%) 0% 0%  !important; */
+        /* background: #192535  !important; */
+        
+        /* -webkit-transition: 1s background-color !important;
+        -moz-transition: 1s background-color !important;
+        -o-transition: 1s background-color !important;
+        transition: 1s background-color !important; */
+        /* height: 300px !important; */
+        
+        
+    }
+
+    .mobile-show .slick-center .testimoni .lay{
+        margin-top: 0!important;
+    }
+
+    .mobile-show .slick-center > .testimoni .p-putih,.mobile-show .slick-center >.testimoni span,.mobile-show .slick-center >.testimoni h4
+    ,.mobile-show .slick-slide[aria-hidden="true"]:not([tabindex="-1"]) + .slick-cloned[aria-hidden="true"]> .testimoni .p-putih
+    ,.mobile-show .slick-slide[aria-hidden="true"]:not([tabindex="-1"]) + .slick-cloned[aria-hidden="true"]> .testimoni span
+    ,.mobile-show .slick-slide[aria-hidden="true"]:not([tabindex="-1"]) + .slick-cloned[aria-hidden="true"]> .testimoni h4{
+        color: #ffffff !important;
+    }
+
+   
+
+    .testimoni{
+        padding:0 !important;
+    }
+
+    .testimoni .p-putih,.testimoni span,.testimoni h4 {
+
+        color: #000000 !important;
+
+    }
+
+
+
+    .portfolio{
+        padding:0 0 1rem !important;
+    }
+
+    .p-50px-mobile
+    {
+        padding: 50px!important;
+    }
+    
+    .p-5px-mobile
+    {
+        padding: 5px!important;
+    }
+    
+    .p-20px-mobile
+    {
+        padding: 20px!important;
+    }
+
+    .content-title span
+    {
+        font-size: 27px !important;
+        margin-top:-30px !important;
+        margin-bottom:15px !important;
+    }
+
+    .content-title span.mobile-show
+    {
+        line-height: 37px !important;
+    }
+
+    .btn-mobile-started {
+
+        background: transparent;
+    
+        border: 1px solid #ffffff;
+    
+        
+    
+        border-radius: 7px;
+    
+        padding: 0 20px;
+    
+        text-transform: none;
+    
+    }
+    
+    .btn-mobile-started span,.btn-mobile-started i {
+        
+        color: #fff !important;
+        font-size: 15px !important;
+    
+    }
+
+    .btn-mobile-started:hover {
+
+        background-color: #ffffff !important;
+        color: #29A8B6 !important;
+    
+        /* box-shadow: 0px 8px 11px #3d3d3d !important; */
+    
+    }
+
+    .valign-middle{
+        vertical-align: middle !important;
+    }
+
+    .img-left-hp {
+
+        position: absolute;
+        top: 73% !important;
+        left: 50% !important;
+        /* height: 376px !important; */
+        object-fit: contain !important;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        -webkit-transition: all 300ms ease;
+        transition: all 300ms ease;
+    }
+
+    .img-left-worker {
+
+        position: absolute;
+
+        top: 73% !important;
+
+        left: 49% !important;
+
+        height: 376px !important;
+
+        object-fit: contain !important;
+
+        -webkit-transform: translate(-50%, -50%);
+
+        transform: translate(-50%, -50%);
+
+        -webkit-transition: all 300ms ease;
+
+        transition: all 300ms ease;
+
+    }
+
+    .txt-header-right-hp span {
+        font-size: 16px;
+        font-weight: 200;
+        letter-spacing: 1px;
+    }
+
+    .txt-header-right-hp p {
+        color: #fff;
+        font-size: 16px;
+        letter-spacing: 0.3px;
+        font-weight: 200;
+        line-height: 24px;
+    }
+
+    .txt-header-right-hp h2{
+        margin-bottom: 0.4rem !important;
+        line-height:42px !important;
+    }
+
+    .txt-header-right-hp{
+        -webkit-transform: translate(0%, 0%) !important;
+        transform: translate(0%, 0%) !important;
+    }
+
+    .header .navbar.navbar-default{
+        position: fixed !important;
+        padding-bottom: 7px !important;
+        padding-top: 11px !important;
+
+    }
+
+    .btn-started-header {
+        border: 1.3px solid #fff;
+        padding: 0 10px;
+    }
+    
+
+    
+
+    /* ------------------------------AKHIR HOME------------------------------------ */
+
+
+    /* ----------------------- AWAL SOLUTIONS-------------------------------------------- */
+
+
+    .mt-center
+    {
+        margin-top: 10%;
+    }
+    .btn--kirim{
+        padding: 8% 13% !important;
+    }
+    
+    .component .wrapper-component {
+        margin-top: -50%;
+        z-index: 999;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .component img {
+        margin-top: 0 !important;
+        z-index: 999;
+        position: relative;
+        /* right: 9px; */
+        width: 100%;
+        transform: scale(1.4);
+    }
+
+        .solusi .header p{
+            padding-left: 6% !important;
+            padding-right: 6% !important;
+        }
+
+        .contact h5{
+            font-size: 18px !important;
+        }
+        .contact p
+        {
+            font-size: 14px !important;
+        }
+
+        .ts-box
+        {
+            max-width: 90% !important;
+        }
+
+        .btn--kirim
+        {
+            line-height: 0 !important;
+        }
+
+        .mb-50p{
+            margin-bottom: 50% !important;
+        }
+
+    /* --------------------------------- AKHIR SOLUTIONS --------------------------------------- */
+
+    /* ------------------------------------ AWAL ABOUT --------------------------------------------- */
+
+    .timeline-area .milestone {
+
+        position: relative;
+    
+        width: 100%;
+        text-align: center;
+    
+    }
+
+    
+
+    .timeline-area .milestone .story.active
+    {
+        width: 70%;
+    }
+
+    .mb-10{
+        margin-bottom:10rem !important;
+    }
+
+    .mt-50-{
+        margin-top:-50%;
+    }
+    
+
+    .timeline-area{
+        width: auto;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        margin-top: 0px;
+        position: relative;
+    }
+
+    .block-leader{
+        border:none !important;
+        box-shadow: 1px 4px 14px -6px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 1px 4px 14px -6px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 4px 14px -6px rgba(0,0,0,0.75);
+    }
+
+    .leader-desk{
+        border-top:none !important;
+    }
+
+    .name-leader {
+
+        font-size: 20px !important;
+
+        display: block;
+
+        margin-top: -6px;
+
+    }
+
+    .title--rekrut{
+        font-size:20px !important;
+        margin-bottom: 3% !important;
+    }
+
+    .bg--rekrut-mobile p{
+
+        
+    
+        font-size: 18px;
+    
+    
+    }
+
+    /* --------------------------------------- AKHIR ABOUT ---------------------------------------------- */
+
+}
+
+
+/* Akhir CSS Mobile */
+
+
+/* Khusus style desktop */
+@media (min-width:767px) { 
+
+    .mobile-show{
+        display: none !important;
+    }
+}

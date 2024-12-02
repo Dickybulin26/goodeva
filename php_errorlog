@@ -1,0 +1,1 @@
+[20-Sep-2023 04:19:18 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\FrontGoodevaLpV2Controller::career() in /home/customer/www/goodeva.co.id/public_html/app/Http/Controllers/FrontGoodevaLpV2Controller.php on line 1217

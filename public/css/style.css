@@ -1,0 +1,1154 @@
+body{
+
+    font-family: 'Inter',sans-serif !important;
+
+}
+
+.mb-20  {
+
+    margin-bottom: 20px !important;
+
+}
+
+.footer p{
+
+    line-height: normal;
+
+    color: #1C1D22 !important;
+
+    font-size: 15px;
+
+    font-weight: 400;
+
+    line-height: 23px;
+
+}
+
+.e-footer__nav-list > li {
+
+    display: inline-block;
+
+    margin: 0 20px;
+
+    vertical-align: top;
+
+}
+
+.e-footer__nav-list > li:nth-child(1) {
+
+    width: 170px;
+
+}
+
+.e-footer__nav-list > li:nth-child(2) {
+
+    width: 140px;
+
+}
+
+.e-footer__nav-list > li:nth-child(3) {
+
+    width: 200px;
+
+}
+
+
+
+
+
+.e-footer__nav-list > li > div > ul li a{
+
+    color: #1C1D1E;
+
+}
+
+.e-footer__nav-list > li > div > ul li{
+
+    margin-bottom: 5px;
+
+}
+
+.footer .footer-nav { padding-top: 65px;padding-bottom: 65px; }
+
+
+
+.bg-greyf9{
+
+    background: #F9F9F9;
+
+}
+
+
+
+.bg-greyef{
+
+    background: #EFEFEF;
+
+}
+
+
+
+.btn-load
+
+{
+
+    background: #133A72;
+
+    color: #ffffff;
+
+    box-shadow: 0px 5px 20px rgba(37, 92, 204, 0.239);
+
+    border-radius: 7px;
+
+}
+
+
+
+.name-leader{
+
+    color: #133A72;
+
+    font-size: 28px;
+
+    font-weight: 600;
+
+    font-family: 'Inter',sans-serif;
+
+}
+
+
+
+.text--blue{
+
+    color: #133A72 !important;
+
+}
+
+
+
+.block-leader{
+
+    border: 1px solid #C5C5C5;
+
+    background: #F9FAFB;
+
+}
+
+.img-lead{
+
+    padding: 30px 45px 0;
+
+}
+
+
+
+.bg--visi-misi img {
+
+    margin-left: -23%;
+
+}
+
+
+
+.bg--visi-misi p{
+
+    color:#636F73;
+
+    font-size:16px;
+
+    letter-spacing: 0.08px;
+
+    font-family: 'Inter',sans-serif;
+
+}
+
+
+
+.bg--visi-misi p{
+
+    color:#636F73;
+
+    font-size:16px;
+
+    letter-spacing: 0.08px;
+
+    font-family: 'Inter',sans-serif;
+
+}
+
+
+
+.img-in-compt{
+
+    transform: scale(1);
+
+    opacity: 1;
+
+}
+
+
+
+.img-out-compt{
+
+    transform: scale(1);
+
+    /* opacity: .1; */
+
+}
+
+
+
+.flow-hide{
+
+    overflow: hidden !important;
+
+}
+
+
+
+#img-competency{
+
+    transition: all .4s ease-in-out;
+
+}
+
+
+
+#img-competency[data-src]{
+
+    will-change: opacity;
+
+}
+
+
+
+#img-reason{
+
+    transition: all .4s ease-in-out;
+
+    object-fit:contain;
+
+    width: auto;
+
+    height: 601px;
+
+    margin: 0 auto;
+
+    margin-left: 25%;
+
+} 
+
+
+
+#img-reason[data-src]{
+
+    will-change: opacity;
+
+}
+
+
+
+.bg--point-circle
+
+{
+
+    color: #449AAB !important;
+
+    width: 15%;
+
+    height: 100%;
+
+}
+
+
+
+.bg--point-circle-compt
+
+{
+
+    width: 8%;
+
+    height: 100%;
+
+}
+
+
+
+.bg--point-circle-reason{
+
+    width: 8%;
+
+    height: 100%;
+
+}
+
+
+
+.bg--point-circle-reason.active{
+
+    font-weight: bolder;
+
+}
+
+
+
+.bg--point-circle-compt.active
+
+{
+
+    color: #63A6B3;
+
+    font-weight: bolder;
+
+}
+
+
+
+button.btn--transparent:focus{
+
+    background: transparent;
+
+
+
+}
+
+.btn--blue{
+
+    background: #133A72;
+
+    color: #ffffff;
+
+    border-radius: 7px !important;
+
+}
+
+
+
+.bg--reason{
+
+    background: url('../img/assets/smart_safety/Texture.png') no-repeat;
+
+    background-size: 100%;
+
+
+
+}
+
+
+
+.bg--reason-healthy{
+
+    background: #26A7B5;
+
+}
+
+
+
+.bg--reason-erp{
+
+    background: #33344A;
+
+}
+
+
+
+
+
+
+
+.bg--reason p,.bg--reason-healthy p,.bg--reason-erp p{
+
+    color: #ffffff ;
+
+    line-height: 22px;
+
+    font-weight: 300;
+
+    font-size: 14px;
+
+    letter-spacing: 0.5px;
+
+}
+
+
+
+.misi--point{
+
+    color: #636F73 ;
+
+    font-size:16px;
+
+}
+
+.text--white
+
+{
+
+    color: #ffffff !;
+
+}
+
+
+
+.btn--transparent{
+
+    background: transparent;
+
+    border: none;
+
+    text-align: left;
+
+    width: 100%;
+
+}
+
+
+
+.btn--transparent:hover{
+
+    background: transparent;
+
+}
+
+
+
+.vis--hidden{
+
+    visibility: hidden;
+
+}
+
+
+
+.font-w500{
+
+    font-weight: 500;
+
+}
+
+
+
+.font-w300{
+
+    font-weight: 300 !important;
+
+}
+
+
+
+.d-in-block{
+
+    display: inline-block;
+
+}
+
+
+
+
+
+.reason--title{
+
+    font-size: 32px;
+
+    color : #ffffff;
+
+    letter-spacing: 0.03px;
+
+    font-family: 'Inter',sans-serif;
+
+    font-weight: 600;
+
+    line-height: 38px;
+
+}
+
+
+
+.visi-misi--title{
+
+    font-size: 32px;
+
+    color : #133a72;
+
+    letter-spacing: 0.03px;
+
+    font-family: 'Inter',sans-serif;
+
+    font-weight: 600;
+
+}
+
+
+
+.img-leader{
+
+    display: block;
+
+    height: 246px;
+
+    margin: 0 auto;
+
+}
+
+.leader-desk{
+
+    border-top: 1px solid #c5c5c5;
+
+}
+
+
+
+.text--black
+
+{
+
+    color:#1D1D1D !important;
+
+}
+
+
+
+.list--compt
+
+{
+
+    color:#2B2A35!important;
+
+}
+
+
+
+.mx-2r{
+
+    margin-right: 2rem!important;
+
+    margin-left: 2rem!important;
+
+}
+
+
+
+.py-2r{
+
+    padding-top: 2rem!important;
+
+    padding-bottom: 2rem!important;
+
+}
+
+
+
+.list--reason
+
+{
+
+    color:#ffffff!important;
+
+    font-size: 24px;
+
+}
+
+
+
+.vertical--line{
+
+    border-left: 2px solid #ffffff;
+
+}
+
+
+
+.fs--36{
+
+    font-size:36px !important;
+
+}
+
+
+
+.fs--30{
+
+    font-size:30px !important;
+
+}
+
+
+
+.mb-2{
+
+    margin-bottom: 1rem !important;
+
+}
+
+
+
+.mb-0{
+
+    margin-bottom: 0 !important;
+
+}
+
+
+
+.btn--send{
+
+    background: #26A7B5;
+
+    color: #ffffff;
+
+    border-radius: 7px;
+
+}
+
+
+
+.bg-white{
+
+    background: #ffffff;
+
+}
+
+
+
+.block-title-office{
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    font-family: 'Open Sans',sans-serif;
+
+    margin-bottom: 8px;
+
+}
+
+
+
+.block-desk-office{
+
+    font-size: 14px;
+
+    font-weight: 300;
+
+    font-family: 'Open Sans',sans-serif;
+
+}
+
+
+
+.block-desk-office p{
+
+    line-height: 21px;
+
+    color: #2B2A35;
+
+}
+
+
+
+.block--office{
+
+    border: 1px solid #DEDEDE;
+
+}
+
+
+
+.btn-social-media{
+
+    background: #E1E1E1;
+
+    color: #A5A5A5;
+
+    line-height: 26px;
+
+    padding: 0 8px;
+
+    border-radius: 5px;
+
+}
+
+
+
+.btn-padding-facebook {
+
+    padding: 0 10px;
+
+    padding-top: 1px;
+
+}
+
+
+
+.btn i{
+
+    font-size: 13px !important;
+
+}
+
+
+
+.btn-social-media > i {
+
+    font-size: 15px !important;
+
+}
+
+
+
+.footer .footer-navigation div ul li a{
+
+    padding:10px 0 9px;
+
+}
+
+
+
+.color--signature{
+
+    color : #63A6B3;
+
+}
+
+.font-w600{
+
+    font-weight: 600 !important;
+
+}
+
+.font-w400{
+
+    font-weight: 400 !important;
+
+}
+
+
+
+.angka--about
+
+{
+
+    font-size: 25px;
+
+    color: #133A72;
+
+    font-weight: 700;
+
+}
+
+
+
+.h-1800{
+
+    min-width: 1800px !important;
+
+}
+
+
+
+.bg-journey
+
+{
+
+    background: #26A7B5;
+
+    z-index: 0;
+
+}
+
+
+
+.title--journey{
+
+    color: #ffffff;
+
+    font-size: 30px;
+
+
+
+}
+
+
+
+.deskripsi--journey p{
+
+    color: #ffffff;
+
+    font-size: 16px;
+
+    font-weight: 200;
+
+}
+
+.font-w700{
+
+    font-weight: 700 !important;
+
+}
+
+.about-goodeva-container .container .row .col-md-12 .fg {
+
+    position: absolute;
+
+    z-index: 3;
+
+    top: 8%;
+
+    left: 0;
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+
+
+.bg--journey{
+
+    background: url('../img/assets/about/about-goodeva-journey-bg.png') no-repeat;
+
+    /* background-size: 100%; */
+    background-position: center;
+
+    min-height: 1800px;
+
+}
+
+
+
+
+
+.bg--rekrut{
+
+    background: url('../img/assets/about/tekstur-goodeva-bg-about.png') no-repeat;
+
+    background-size: 100%;
+
+    min-height: 370px;
+
+    margin-left: -3px;
+
+}
+
+.bg--rekrut-mobile{
+
+    background: url('../img/assets/about/Mask Group 218@2x.png') no-repeat;
+
+    background-size: 100%;
+
+    /* min-height: 450px; */
+    min-height: 420px;
+
+    margin-left: -3px;
+
+}
+
+
+
+
+
+.bg--safety-trial{
+
+    background: url('../img/assets/smart_safety/BG Footer.png') no-repeat;
+
+    background-size: 100% ;
+
+
+
+}
+
+
+
+.btn--gabung{
+
+    background: transparent linear-gradient(0deg, #E08417 0%, #FFBB00 100%) 0% 0% no-repeat padding-box;
+
+    color:#143477;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    font-family: 'Open Sans',sans-serif;
+
+    border-radius: 8px !important;
+
+}
+
+
+
+.title--rekrut{
+
+    color:#ffffff;
+
+    font-size: 36px;
+
+    font-family: 'Open Sans',sans-serif;
+
+    letter-spacing: 0.03px;
+
+    font-weight: 700;
+
+}
+
+
+
+.bg--rekrut p,.bg--rekrut-mobile p,.bg--safety-trial p{
+
+    color:#ffffff;
+
+    font-size: 18px;
+
+    font-family: 'Open Sans',sans-serif !important;
+
+    letter-spacing: 0.7px;
+
+    font-weight: 300;
+
+    margin-bottom: 1.5rem;
+
+}
+
+
+
+.leader-desk div p{
+
+    color: #2B2A35;
+
+    font-family: 'Inter',sans-serif;
+
+    font-size: 20px;
+
+}
+
+
+
+.about-goodeva-container {
+
+    width: 100%;
+
+    /* min-height: 1000px; */
+
+}
+
+
+
+.timeline-area .milestone.s1 {
+
+    top: -206px;
+
+    right: 250px;
+
+}
+
+
+
+.timeline-area .milestone.s2 {
+
+    top: -163px;
+
+    left: 150px;
+
+}
+
+
+
+.timeline-area .milestone.s3 {
+
+    top: 379px;
+
+    left: -66px;
+
+}
+
+
+
+/* .timeline-area .milestone.s4 {
+
+    top: 661px;
+
+    left: 257px;
+
+} */
+
+.timeline-area .milestone.s4 {
+
+    top: 630px;
+
+    right: 248px;
+
+}
+
+
+
+.timeline-area .milestone.s5 {
+
+    top: 814px;
+
+    left: 247px;
+
+}
+
+
+
+.timeline-area .milestone {
+
+    position: absolute;
+
+    width: 250px;
+
+}
+
+
+
+.timeline-area .milestone .year{
+
+    text-align: center;
+
+    opacity: 100;
+
+}
+
+.timeline-area .milestone .year.active{
+
+    text-align: center;
+
+    opacity: 1;
+
+}
+
+
+
+.timeline-area .milestone .year {
+
+    transition: all 0.3s;
+
+    -moz-transition: all 0.3s;
+
+    -ms-transition: all 0.3s;
+
+    -webkit-transition: all 0.3s;
+
+    -o-transition: all 0.3s;
+
+
+
+}
+
+
+
+.timeline-area .milestone .year button{
+
+    /* width: 100%; */
+
+
+
+    margin-top: -10px;
+
+    margin-bottom: 30px;
+
+    color: #26A7B5;
+
+
+
+    font-family: 'Inter',sans-serif;
+
+    font-weight: 600;
+
+    font-size: 21px;
+
+    background: transparent linear-gradient(180deg, #FFFFFFF7 0%, #C7E1FF 100%) 0% 0% no-repeat padding-box;
+
+    border-radius: 7px;
+
+    box-shadow: -1px -1px 14px -3px rgba(0,0,0,0.29) !important;
+
+    -webkit-box-shadow: -1px -1px 14px -3px rgba(0,0,0,0.29) !important;
+
+    -moz-box-shadow: -1px -1px 14px -3px rgba(0,0,0,0.29) !important;
+
+    border:none;
+
+}
+
+.timeline-area .milestone .story.active {
+
+    opacity: 1;
+
+}
+
+
+
+.timeline-area .milestone .story {
+
+    color: #FFFFFF;
+
+    font-size: 16px;
+
+    margin-top: -20px;
+
+    line-height: 1.3;
+
+    text-align: center;
+
+    font-weight: 200;
+
+    transition: all 0.6s;
+
+    -moz-transition: all 0.6s;
+
+    -ms-transition: all 0.6s;
+
+    -webkit-transition: all 0.6s;
+
+    -o-transition: all 0.6s;
+
+    font-family: 'Inter',sans-serif;
+
+    opacity: 0;
+
+}
+
+
+
+
+
+.timeline-area {
+
+    width: 100%;
+
+    height: 782px;
+
+    background-repeat: no-repeat;
+
+    background-size: 100%;
+
+    background-position: center;
+
+    margin-top: 200px;
+
+    position: relative;
+
+}
+
+
+
+.mb-100-{
+
+    margin-bottom: -100px;
+
+}
+
+
+
+.h-50pn{
+
+    height: 50%;
+
+}
+
+
+
