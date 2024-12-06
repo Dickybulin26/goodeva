@@ -55,12 +55,9 @@ class EvamediaPostController extends Controller
 
         $request['image'] = $request->file ? $image : null;
 
-        // $image = "data:image/png;base64," . base64_encode(file_get_contents($request->file('file')->path()));
-
         $tags = implode(',', $request->tags);
 
         $slug = Str::of($request->title)->slug('-');
-        // $slug = strtolower($slug);
 
         $post = new Post();
         $post->title = $request->title;
@@ -76,6 +73,58 @@ class EvamediaPostController extends Controller
         $post->save();
 
         return response()->json(['message' => 'Post Created Successfully'], 201);
+    }
+
+    public function update(Request $request, $slug)
+    {
+        $request->validate([
+            'file' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:10240',
+            'title' => 'nullable',
+            'tags' => 'nullable',
+            'publisher' => 'nullable',
+            'description' => 'nullable',
+            'news_content' => 'nullable',
+            'category_id' => 'nullable',
+            'author' => 'nullable',
+        ]);
+
+        $post = Post::where('slug', $slug)->firstOrFail();
+
+        $post->title = $request->title;
+        $post->slug = Str::slug($request->title);
+        $post->publisher = $request->publisher;
+        $post->description = $request->description;
+        $post->news_content = $request->news_content;
+        $post->category_id = $request->category_id;
+        $post->author = $request->author;
+        $post->tags = implode(',', $request->tags);
+
+        if ($request->hasFile('file')) {
+            $fileName = $this->generateRandomString();
+            $extension = $request->file->extension();
+            $image = $fileName . '.' . $extension;
+
+            Storage::disk('public')->putFileAs('evamediaAPI', $request->file, $image);
+            $post->image = $image;
+        }
+
+        $post->save();
+
+        return response()->json(['message' => 'Post Updated Successfully'], 200);
+    }
+
+
+    //? fungsi untuk delete post
+    public function destroy($slug)
+    {
+        $post = Post::where('slug', $slug)->first();
+
+        if (isset($post)) {
+            $post->delete();
+            return response()->json(['message' => 'Post Deleted Successfully'], 200);
+        }
+
+        return response()->json(['message' => 'Post Not Found'], 404);
     }
 
 

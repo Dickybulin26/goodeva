@@ -17,17 +17,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(CategorySeeder::class);
-
-
-        // Post::factory(50)->recycle([
-        //     User::factory(15)->create(),
-        //     Category::factory(12)->create()
-        // ])->create();
-
-        // factory(Category::class, 12)->create();
         factory(User::class, 10)->create();
-        factory(Post::class, 50)->create();
+        // factory(Post::class, 50)->create();
 
         Category::create([
             'category' => 'Programming',

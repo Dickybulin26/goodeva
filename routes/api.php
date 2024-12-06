@@ -34,10 +34,9 @@ Route::post('/tambah', [EvamediaPostController::class, 'store'])->name('post.tam
 Route::get('/trending',[EvamediaPostController::class, 'trendingPost'])->name('post.trending');
 Route::get('/latest',[EvamediaPostController::class, 'latestPost'])->name('post.latest');
 Route::post('/category/{category_id}',[EvamediaPostController::class, 'getPostByCategory'])->name('post.category');
+Route::post('/edit/{slug}', [EvamediaPostController::class, 'update'])->name('post.update');
+Route::get('/delete/{slug}', [EvamediaPostController::class, 'destroy'])->name('post.delete');
 
 //* detail post
 Route::get('/read/{slug}', [EvamediaPostController::class, 'detailPost'])->name('post.detailPost');
 Route::get('read/{slug}/recomendation', [EvamediaPostController::class,'recomendationPost'])->name('post.recomendation');
-
-// Route::post('/update/{slug}', [EvamediaPostController::class, 'update'])->name('post.update');
-// Route::get('/delete/{slug}', [EvamediaPostController::class, 'destroy'])->name('post.delete');
